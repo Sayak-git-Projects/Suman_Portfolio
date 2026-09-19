@@ -4,7 +4,7 @@ Files:
 - index.html
 - style.css
 - script.js
-- assets/profile.jpg
+- profile.jpg
 
 Open index.html in a browser.
 
