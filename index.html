@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Suman Kundu — creative developer portfolio">
+  <title>Suman Kundu — Creative Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="scroll-line" id="scrollLine"></div>
+
+  <header class="topbar">
+    <a href="#home" class="logo"><span>SK</span><i>●</i></a>
+    <div class="availability"><span></span> AVAILABLE FOR PROJECTS</div>
+    <button class="menu" id="menuBtn" aria-label="Open menu"><span></span><span></span></button>
+  </header>
+
+  <div class="menu-panel" id="menuPanel">
+    <div class="menu-bg">MENU</div>
+    <nav>
+      <a href="#home"><small>01</small>Home</a>
+      <a href="#about"><small>02</small>About</a>
+      <a href="#work"><small>03</small>Work</a>
+      <a href="#skills"><small>04</small>Skills</a>
+      <a href="#contact"><small>05</small>Contact</a>
+    </nav>
+    <div class="menu-contact">Kolkata, India<br><a href="mailto:skundu23655@gmail.com">skundu23655@gmail.com</a></div>
+  </div>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-top reveal">
+        <p class="mono">PORTFOLIO / 2026</p>
+        <p class="mono right">COMPUTER SCIENCE × BUILDING THINGS</p>
+      </div>
+
+      <div class="hero-grid">
+        <div class="hero-title reveal">
+          <p class="kicker">HELLO, I'M SUMAN</p>
+          <h1>CODE<br><em>MEETS</em><br>IDEAS<span>.</span></h1>
+          <p class="intro">Developer exploring the intersection of <b>web, data, machine learning and IoT.</b></p>
+          <div class="hero-links">
+            <a href="#work">EXPLORE WORK <span>↘</span></a>
+            <a href="mailto:skundu23655@gmail.com">SAY HELLO <span>↗</span></a>
+          </div>
+        </div>
+
+        <div class="portrait-wrap reveal">
+          <div class="portrait-frame">
+            <div class="portrait-label mono">SUMAN / 001</div>
+            <img src="assets/profile.jpg" alt="Suman Kundu">
+            <div class="portrait-bottom">
+              <span>DEVELOPER</span>
+              <span>INDIA</span>
+            </div>
+          </div>
+          <div class="orbit orbit-1"></div>
+          <div class="orbit orbit-2"></div>
+          <div class="orbit-text">PYTHON • PHP • IOT • DATA • PYTHON • PHP • IOT • DATA • </div>
+        </div>
+      </div>
+
+      <div class="marquee">
+        <div>PYTHON <b>✦</b> PHP <b>✦</b> MACHINE LEARNING <b>✦</b> IOT <b>✦</b> DATA ANALYTICS <b>✦</b> WEB DEVELOPMENT <b>✦</b> </div>
+        <div>PYTHON <b>✦</b> PHP <b>✦</b> MACHINE LEARNING <b>✦</b> IOT <b>✦</b> DATA ANALYTICS <b>✦</b> WEB DEVELOPMENT <b>✦</b> </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-number mono">02 / ABOUT</div>
+      <div class="about-grid">
+        <h2 class="reveal">I LIKE TURNING<br><span>COMPLEX PROBLEMS</span><br>INTO SIMPLE BUILDS.</h2>
+        <div class="about-copy reveal">
+          <p>I am a Computer Science and Engineering professional with hands-on experience in PHP web development and project work spanning machine learning, IoT, data analytics and smart-city solutions.</p>
+          <p>I work across Python, PHP, backend frameworks, databases and analytics tools — with a focus on building practical systems that connect software to real-world problems.</p>
+          <div class="facts">
+            <div><b>01</b><span>Web Development</span></div>
+            <div><b>02</b><span>Machine Learning</span></div>
+            <div><b>03</b><span>IoT Systems</span></div>
+            <div><b>04</b><span>Data Analytics</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section" id="work">
+      <div class="section-head">
+        <div>
+          <div class="section-number mono">03 / SELECTED WORK</div>
+          <h2 class="reveal">THINGS I'VE<br><span>BUILT.</span></h2>
+        </div>
+        <p class="section-note reveal">A mix of software, data and connected systems. Each project started with a problem and ended with something tangible.</p>
+      </div>
+
+      <div class="projects">
+        <article class="project p1 reveal">
+          <div class="project-no mono">01</div>
+          <div class="project-content">
+            <p class="project-meta">MACHINE LEARNING / IoT / SMART CITY</p>
+            <h3>CO₂-to-Light</h3>
+            <p>Smart energy generation from highway emissions using traffic and environmental data, with preprocessing, feature extraction and predictive modeling.</p>
+            <div class="project-result"><strong>82%</strong><span>carbon capture efficiency</span><strong>4.5</strong><span>kWh/day per unit</span></div>
+            <div class="chips"><i>ML</i><i>IoT</i><i>DATA</i><i>SMART CITY</i></div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </article>
+
+        <article class="project p2 reveal">
+          <div class="project-no mono">02</div>
+          <div class="project-content">
+            <p class="project-meta">MICROCONTROLLER / SENSORS / CAMERA</p>
+            <h3>Smart Security<br>Robot</h3>
+            <p>IoT-based robot for real-time surveillance and smart tracking with motion detection, live video streaming and remote alerts.</p>
+            <div class="chips"><i>IoT</i><i>AUTOMATION</i><i>REMOTE</i></div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </article>
+
+        <article class="project p3 reveal">
+          <div class="project-no mono">03</div>
+          <div class="project-content">
+            <p class="project-meta">PHP / MYSQL / JAVASCRIPT</p>
+            <h3>Flower Shop<br>E-Commerce</h3>
+            <p>Dynamic online flower ordering platform with authentication, product listings, shopping cart and order management.</p>
+            <div class="chips"><i>PHP</i><i>MYSQL</i><i>WEB</i><i>UI</i></div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-number mono">04 / TOOLKIT</div>
+      <div class="skills-layout">
+        <h2 class="reveal">MY<br><span>STACK.</span></h2>
+        <div class="stack reveal">
+          <div class="stack-row"><span>LANGUAGES</span><b>Python / PHP</b></div>
+          <div class="stack-row"><span>FRAMEWORKS</span><b>Django / FastAPI / Spring Boot</b></div>
+          <div class="stack-row"><span>DATA</span><b>Pandas / NumPy / Excel / Power BI</b></div>
+          <div class="stack-row"><span>DATABASES</span><b>MySQL / MongoDB / Firebase</b></div>
+          <div class="stack-row"><span>TOOLS</span><b>Git / VS Code / PyCharm / Jupyter / Figma</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="credentials section">
+      <div class="section-number mono">05 / CREDENTIALS</div>
+      <div class="credential-grid">
+        <div class="credential reveal">
+          <span>EDUCATION</span>
+          <h3>B.Tech</h3>
+          <p>Computer Science & Engineering</p>
+          <b>JIS University</b>
+        </div>
+        <div class="credential reveal">
+          <span>RESEARCH</span>
+          <h3>STEP 2025</h3>
+          <p>International Conference on Smart Technology for Emerging Problems</p>
+        </div>
+        <div class="credential reveal">
+          <span>RESEARCH</span>
+          <h3>ICDEC 2025</h3>
+          <p>4th International Conference on Data, Electronics and Computing</p>
+        </div>
+        <div class="credential reveal">
+          <span>CERTIFICATION</span>
+          <h3>Java + Python</h3>
+          <p>NPTEL (IIT Kharagpur) + Saylor Academy</p>
+        </div>
+        <div class="credential reveal">
+          <span>EVENTS</span>
+          <h3>Hackathons & Contests</h3>
+          <p>NASSCOM DSCI EY Cybersecurity Hackathon, ACM Project Contest, IHMMC-25</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-orb"></div>
+      <div class="section-number mono">06 / CONTACT</div>
+      <div class="contact-content reveal">
+        <p class="kicker">HAVE AN IDEA?</p>
+        <h2>LET'S MAKE<br><em>IT REAL.</em></h2>
+        <a class="email" href="mailto:skundu23655@gmail.com">skundu23655@gmail.com <span>↗</span></a>
+        <div class="contact-meta">
+          <span>KOLKATA, INDIA</span>
+          <span>9064481584</span>
+          <a href="https://github.com/ksuman67" target="_blank">GITHUB ↗</a>
+          <a href="https://linkedin.com/in/suman-kundu-29462a287" target="_blank">LINKEDIN ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>SUMAN KUNDU / PORTFOLIO</span>
+    <span>© <span id="year"></span></span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
